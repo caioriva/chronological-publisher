@@ -1,0 +1,5 @@
+cron:
+- description: "Hourly job for chronological-publisher"
+  url: /publish
+  schedule: every 1 hours
+  target: chronological-publisher
